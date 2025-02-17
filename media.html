@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border: 0;
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(images/vecteezy_vector-abstract-background-with-soft-gradient-color-and_6404523.jpg);
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: scroll;
+            gap: 25px;
+        }
+
+        .box1 {
+            width: 40vw;
+            height: 600px;
+            background-image: url(images/94577.webp);
+            background-size: cover;
+            border-radius: 10px;
+
+        }
+
+        .box2 {
+            width: 40vw;
+            height: 600px;
+
+
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .oreo {
+            margin: 10px;
+            margin-left: 22px;
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .oreosubtxt {
+            margin: 10px;
+            margin-left: 27px;
+            font-size: 15px;
+            color: rgba(183, 180, 180, 0.9);
+
+
+        }
+
+        .ingredients {
+            margin: 10px;
+            margin-top: 25px;
+
+            font-size: 15px;
+            color: rgba(246, 241, 241, 0.9);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 10px;
+        }
+
+        .procedure {
+
+            margin: 10px;
+            margin-top: 25px;
+            color: whitesmoke;
+        }
+
+        .pro {
+            text-decoration: underline;
+        }
+
+        .thankyou {
+            color: whitesmoke;
+            font-size: 40px;
+            position: fixed;
+            left: 200px;
+            bottom: 60px;
+        }
+
+        .shopnow {
+            padding: 5px;
+            border-radius: 5px;
+            background: rgba(246, 244, 244, 0.9);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            margin-left: 25px;
+            margin-top: 8px;
+            cursor: pointer;
+
+        }
+
+        @media(max-width:1100px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                overflow: scroll;
+            }
+
+            .box1 {
+                width: 400px;
+                height: 600px;
+                background-image: url(images/94577.webp);
+                background-size: cover;
+            }
+
+            .box2 {
+                width: 400px;
+                height: 600px;
+            }
+
+            .oreosubtxt {
+                font-size: 10px;
+            }
+
+            .oreo {
+                font-size: 35px;
+            }
+
+            .box2 {
+                height: 600px;
+            }
+
+            .procedure {
+                font-size: 12px;
+            }
+
+            .thankyou {
+                position: fixed;
+                left: 105px;
+                bottom: 5px;
+                font-size: 35px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <p class="oreo">Oreo Cake</p>
+            <p class="oreosubtxt">Oreo cake is a dreamy, chocolatey delight with layers of cookies and cream in every
+                bite!</p>
+            <button class="shopnow">Order Now</button>
+        </div>
+        <div class="box2">
+
+            <p class="procedure">
+                <b class="pro">Procedure</b> <br><br>
+
+                1. Preheat the oven to 180°C (350°F) and grease a cake pan.<br><br>
+
+
+                2. Mix dry ingredients: In a bowl, combine flour, cocoa powder, baking powder, baking soda, and
+                sugar.<br><br>
+
+
+                3. Add wet ingredients: Pour in milk, oil, vanilla extract, and warm water. Mix until smooth.<br><br>
+
+
+                4. Fold in crushed Oreos gently.<br><br>
+
+
+                5. Bake: Pour the batter into the cake pan and bake for 25 to 30 minutes or until a toothpick inserted
+                in
+                the center comes out clean.<br><br>
+
+
+                6. Cool the cake completely before frosting.<br><br>
+
+                7. Prepare the frosting: Mix whipped cream with crushed Oreos. Spread it evenly over the cooled
+                cake.<br><br>
+
+
+                8. Decorate with whole Oreos on top and serve!<br><br>
+
+            </p>
+
+            <p class="thankyou">Thank You</p>
+        </div>
+    </div>
+</body>
+
+</html>
